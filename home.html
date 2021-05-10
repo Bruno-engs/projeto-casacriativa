@@ -6,24 +6,32 @@
     <title>Casa Criativa</title>
 </head>
 <style>
-body {
-    background:  #e5e5e5;
-    color: #25282b;
-    text-align: center;
-}
+    body {
+        background: #e5e5e5;
+        color: #25282b;
+        text-align: center;
+    }
 
-button {
-    color: #ff5e84;
-    border: none;
-    font-weight: bold;
-    background: none;
-}
+    button {
+        color: #ff5e84;
+        border: none;
+        font-weight: bold;
+        background: none;
+    }
 
-.fat{
-    color: white;
-    background: #ff5e84;
-}
+    .fat {
+        color: white;
+        background: #ff5e84;
+    }
 
+    #footer a {
+        color: #25282B;
+        text-decoration: none;
+    }
+
+    .hide{
+        display: none;
+    }
 </style>
 
 <body>
@@ -44,7 +52,20 @@ button {
     <button>+ Adicionar Ideia</button>
     <button class="fat">Ver Ideias</button>
 
-    <p id="footer">Com ❤ Bruno B. Albuquerque</p>
+    <p id="footer">Com ❤ <a href="https://github.com/Bruno-engs">Bruno B. Albuquerque</a></p>
+
+    <script>
+
+        document
+            .querySelector("button.fat")
+            .addEventListener("click", function(){
+                document
+                    .querySelector("#footer")
+                    .classList
+                    .toggle("hide")
+            })
+    </script>
+
 </body>
 
 </html>
