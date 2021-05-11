@@ -1,6 +1,6 @@
 body {
-    background: #e5e5e5;
-    color: #25282b;
+    background: #22272e;
+    color: #fff;
     margin: 0;
     font-family: 'Montserrat Alternates', sans-serif;
 }
@@ -81,7 +81,7 @@ footer {
     margin-bottom: 32px;
     box-shadow: 0 4px 16px -8px rgba(1,1,1,0.25);
     border-radius: 8px;
-    background-color: azure;
+    background-color: #444c569a;
     padding:32px;
 }
 
